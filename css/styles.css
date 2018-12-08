@@ -1,0 +1,167 @@
+body{
+  font-family: "Montserrat";
+}
+
+.title{
+  background-color: #69addd;
+}
+
+
+/* Navbar section */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+#navbarTogglerDemo01{
+  font-family: "Ubuntu";
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Navbar section */
+
+/* Download Button Section */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* Download Button Section */
+
+/* Title Image Section */
+.rotate30 {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.title-image{
+  width: 80%;
+  position: absolute;
+}
+/* Title Image Section */
+
+
+/* Features Section */
+.features{
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+h3{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p{
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+.fa-icons{
+  color: #69addd;
+}
+.fa-icons:hover{
+  color: #4f82a5;
+}
+/* Features Section */
+
+
+/* Testimonials Section */
+.testimonials{
+  text-align: center;
+  background-color: #4f82a5;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+/* Testimonials Section */
+
+/*Press Section*/
+.press{
+  background-color: #4f82a5;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 50%;
+  margin: 20px 20px 15px;
+}
+
+/*Press Section*/
+
+/* Pricing Section */
+.text-center{
+  text-align: center;
+  font-family: "Ubuntu";
+}
+/* Pricing Section */
+
+
+/* Media Query Section */
+@media (max-width : 990px) {
+  .title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+  }
+}
+/* Media Query Section */
+
+.cta{
+    background-color: #69addd;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.footer{
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
